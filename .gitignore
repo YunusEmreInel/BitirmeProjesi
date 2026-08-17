@@ -1,0 +1,39 @@
+# Dataset - GitHub'a yüklenmeyecek
+turk_isaret_dili_proje/tid_pipeline/data/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+.venv/
+.venv*/
+env/
+
+# IDE
+.vscode/
+.idea/
+
+# Python cache
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Android build files
+mobil/.gradle/
+mobil/**/build/
+mobil/local.properties
+
+# Operating System
+.DS_Store
+Thumbs.db
+
+# Firebase configuration
+mobil/app/google-services.json
+
+# Secrets / signing keys
+.env
+*.jks
+*.keystore
